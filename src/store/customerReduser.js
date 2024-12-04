@@ -9,4 +9,5 @@ export const customerReducer = (state = [{name:'Антон'}] , action) =>{
     }
 }
 
+
 export const addManyCustomersAction = (payload) => ({type: ADD_MANY_CUSTOMERS, payload})
